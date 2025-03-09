@@ -8,7 +8,7 @@ const navLinks = [
   { title: "Stack", path: "#stack" },
   { title: "Contact", path: "#contact" },
 ];
-export const Navbar = () => {
+const Navbar = () => {
   const [nav, setNav] = useState(false);
   const toggleNav = () => {
     setNav(!nav);
@@ -39,7 +39,7 @@ export const Navbar = () => {
       >
         {nav ? <AiOutlineClose size={30} /> : <AiOutlineMenu size={30} />}
       </div>
- 
+
       <div
         className={`fixed left-0 top-0 w-full h-full bg-black/90 transform transition-transform duration-300 ${
           nav ? "translate-x-0" : "-translate-x-full"
@@ -58,3 +58,5 @@ export const Navbar = () => {
     </div>
   );
 };
+
+export default Navbar;
