@@ -10,12 +10,12 @@ const stackItems = [
   { id: 2, name: "Node.js", icon: IoLogoNodejs, color: "#339933" },
   { id: 3, name: "TypeScript", icon: SiTypescript, color: "#3178C6" },
   { id: 4, name: "MongoDB", icon: SiMongodb, color: "#47A248" },
-  { id: 5, name: "Next.js", icon: TbBrandNextjs, color: "#000000" },
+  { id: 5, name: "Next.js", icon: TbBrandNextjs, color: "#61DAFB" },
 ];
 
 const Stack = () => {
   return (
-    <section className="py-16 glass">
+    <section className="py-16 glass" id="stack">
       <div className="max-w-[1200px] mx-auto px-4 text-center">
         <h2 className="text-5xl text-gray-200 font-bold mb-4">My Stack</h2>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-2">

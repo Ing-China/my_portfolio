@@ -41,7 +41,7 @@ const Hero = () => {
           Hi, I am
         </h1>
         <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text font-black leading-tight text-transparent text-5xl md:text-7xl">
-          Ing China
+          Ung China
         </h1>
         <Image src={profilepic} alt="profile pic" width={200} />
 

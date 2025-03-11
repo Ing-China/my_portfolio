@@ -1,3 +1,4 @@
+import { Footer } from "@/components/Footer";
 import Hero from "@/components/Hero";
 import KeyMetrics from "@/components/KeyMetrics";
 import LogoAnimation from "@/components/LogoAnimation";
@@ -14,6 +15,7 @@ export default function Home() {
       <LogoAnimation />
       <KeyMetrics />
       <Services />
+      <Footer />
     </>
   );
 }
